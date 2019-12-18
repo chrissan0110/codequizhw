@@ -34,3 +34,11 @@ function setTime(){
         }
     }, 1000);
 }
+const startBtn = document.getElementById("startquiz");
+
+startBtn.addEventListener('click', function() {
+    setTime();
+    startBtn.style.display = 'none';
+    document.querySelector('.quizPage').style.display='none';
+    displayQuestions(questionIndex);
+})
