@@ -83,3 +83,20 @@ for (var i=0; i < question.choices.length ;i++) {
     }
     questionsEl.appendChild(questionDiv);
 }
+function renderScores(){
+    scoreList.innerHTML = "";
+    
+    for (var x = 0; x < userInitials.length; x ++){
+        var letters = userInitials[x];
+        
+        var li = document.createElement("li");
+        li.textContent = letters;
+        li.setAttribute("data-index", x);
+        
+        var button = document.createElement("button");
+        button.textContent = "Clear";
+        
+        li.appendChild(button);
+        scoreList.appendChild(li);
+    }
+} 
