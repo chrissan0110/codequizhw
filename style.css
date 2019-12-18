@@ -1,0 +1,35 @@
+.container{
+    background-color:gray;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+h1{
+    font-family: 'Abril Fatface', cursive;  
+    padding-bottom: 10px; 
+    text-align: center; 
+    color: blue;
+}
+h2{
+    text-align: center; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+p{
+    font-family: 'Poppins', cursive;
+    font-weight: 250;
+    text-align: center;
+}
+button{
+    background-color: red;
+    color: white;
+    display: block;
+    border-radius: 15px;
+    font-family: 'Poppins', cursive;
+    font-weight: 200;
+}
+button:hover {
+    background-color: #8590AA;
+}
+button:focus {
+    outline:none;
